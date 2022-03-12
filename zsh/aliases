@@ -1,0 +1,19 @@
+# For a full list of active aliases, run `alias`.
+# to run command that is shadowed by an alias run (for example): \ls
+# allow sudo with aliases
+alias sudo='sudo '
+
+alias pip='pip3'
+alias python='python3'
+
+# faster navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# safety measures
+
+alias mv='mv -i'
+
+# git (use for example ga instead of git add)
+alias g='git'
+
